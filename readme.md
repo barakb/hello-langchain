@@ -6,4 +6,16 @@
 #### building 
 
 `npm run build` or `tsc` or `tsc --watch`
- 
+`
+
+#### buildpacks
+
+##### build image
+`pack build hello-langchain  --builder paketobuildpacks/builder:base`
+
+##### run image
+
+`docker run -it  hello-langchain` 
+
+
+https://www.codemag.com/Article/2209091/Getting-Started-with-Cloud-Native-Buildpacks
