@@ -1,6 +1,7 @@
 {
   "engines": {
-    "node": "20.2.0"
+    "node": "19.9.0",
+    "npm": "9.6.6"
   },
   "devDependencies": {
     "typescript": "^5.0.4"

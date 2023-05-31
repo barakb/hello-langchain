@@ -18,4 +18,4 @@ jobs:
             - name: Pack Build
               uses: dfreilich/pack-action@v2.0.0
               with:
-                args: 'build hello-langchain --builder paketobuildpacks/builder:base --buildpack paketo-buildpacks/nodejs --env BP_NODE_OPTIMIZE_MEMORY=true' 
+                args: 'build hello-langchain --builder paketobuildpacks/builder:base --buildpack gcr.io/paketo-buildpacks/nodejs --env BP_NODE_OPTIMIZE_MEMORY=true' 

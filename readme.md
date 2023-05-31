@@ -11,7 +11,7 @@
 #### buildpacks
 
 ##### build image
-`pack build hello-langchain  --builder paketobuildpacks/builder:base --buildpack paketo-buildpacks/nodejs`
+`pack build hello-langchain  --builder paketobuildpacks/builder:base --buildpack gcr.io/paketo-buildpacks/nodejs  --env BP_NODE_OPTIMIZE_MEMORY=true`
 
 ##### run image
 
