@@ -11,11 +11,9 @@ jobs:
               uses: actions/checkout@v3
             - name: Node.js
               uses: actions/setup-node@v1
-              with:
-                node-version: 20.2.0
             - name: Build
               run: npm install && npm run build
             - name: Pack Build
               uses: dfreilich/pack-action@v2.0.0
               with:
-                args: 'build hello-langchain --builder paketobuildpacks/builder:base --buildpack paketo-buildpacks/nodejs' 
+                args: 'build hello-langchain --builder paketobuildpacks/builder:base --buildpack paketo-buildpacks/nodejs --env BP_NODE_OPTIMIZE_MEMORY=true' 
