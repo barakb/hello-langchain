@@ -11,7 +11,7 @@
 #### buildpacks
 
 ##### build image
-`pack build hello-langchain  --builder paketobuildpacks/builder:base`
+`pack build hello-langchain  --builder paketobuildpacks/builder:base --buildpack paketo-buildpacks/nodejs`
 
 ##### run image
 
