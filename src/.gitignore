@@ -1,2 +1,4 @@
 .vscode
-dist
+dist/
+*.js
+*.js.map
