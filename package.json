@@ -3,7 +3,7 @@
   "main": "./dist/index.js",
   "engines": {
     "node": "19.9.0",
-    "npm": "9.7.1"
+    "npm": "9.9.3"
   },
   "devDependencies": {
     "ts-node": "^10.9.1",
